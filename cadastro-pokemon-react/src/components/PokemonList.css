@@ -1,0 +1,66 @@
+.pokemon-list {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.pokemon-card {
+  width: 160px;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 15px 20px;
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.pokemon-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.pokemon-card h3 {
+  color: #ffffff;
+  size: 15px;
+  margin-bottom: 5px;
+}
+
+.sem-pokemons {
+  text-align: center;
+  color: #555;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+
+.fogo {
+  background: rgba(255, 183, 81, 0.76); /* laranja clarinho */
+  color: white;
+}
+
+.agua {
+  background: rgba(109, 213, 250, 0.76); /* azul clarinho */
+  color: white;
+}
+
+.grama {
+  background: rgba(168, 224, 99, 0.76); /* verde clarinho */
+  color: white;
+}
+
+.eletrico {
+  background: rgba(255, 243, 77, 0.76); /* amarelo clarinho */
+  color: #333;
+}
+
+.psiquico {
+  background: rgba(252, 121, 206, 0.76); /* roxo clarinho */
+  color: white;
+}
+
+.pedra {
+  background: rgba(192, 192, 192, 0.76); /* cinza clarinho */
+  color: white;
+}
